@@ -28,7 +28,7 @@ alert("Je loopt het kasteel van ravenheart in. Opzoek naar rijkdom en macht!");
                             }
 
         alert("Terwijl je loopt naar het huis van de kasteel, word je onderschept door een " + randomNaam + ".");
-var vraag2 = prompt("Hij zegt. HEY! wat do jij hier!");
+var vraag2 = prompt("Hij zegt. HEY! wat doe jij hier!");
             alert("Jij zegt: " + vraag2 + "." + " de " + randomNaam + " " + randomEmotie + " " + "en zegt: Jij komt hier niet vandaan ofwel?");
 var vraag3 = prompt("Kom je hier vandaan? "+ "vraagt de " + randomNaam + " opnieuw." );
         if(vraag3 == "ja"){
@@ -63,7 +63,7 @@ var vraag3 = prompt("Kom je hier vandaan? "+ "vraagt de " + randomNaam + " opnie
                                             
 
                                                 }else{
-                                                    alert("Je denkt na over een ander manier om het kasteel te krijgen...");
+                                                    alert("Je denkt na over een ander manier om het huis te krijgen...");
                                                     var vraag8 = prompt("Je kijkt naar het huis en ziet dat het raam open staat, en der naast een trap. Klim je naar boven?");
                                                     if(vraag8 =="ja"){
                                                         var klimmen = Math.floor(Math.random()*2);
@@ -77,21 +77,21 @@ var vraag3 = prompt("Kom je hier vandaan? "+ "vraagt de " + randomNaam + " opnie
                                                                     alert("Je hoort: GODVERDOMME AL ME GOUD! WAAR BEN JE DIEF!");
                                                                     if(verstoppen == "kast"){
                                                                         alert("De man loop richting jou en opent de kast! Hij zegt: MIJN GOUD DIEF!");
-                                                                        alert("Hij slaat je knock out. En je gaat dood")
+                                                                        alert("Hij slaat je knock out. En je gaat dood");
                                                                     }else{
-                                                                        alert("De man loopt richting de kast. YES! hij heeft je niet gevonden!")
-                                                                        alert("Je klimt gauw uit het raam en rent naar de markt! je verkoopt al je spullen en rent uit het kasteel JE BENT RIJK!")
+                                                                        alert("De man loopt richting de kast. YES! hij heeft je niet gevonden!");
+                                                                        alert("Je klimt gauw uit het raam en rent naar de markt! je verkoopt al je spullen en rent uit het kasteel JE BENT RIJK");
                                                                     }
                                                                 }else{
                                                                     alert("Je houdt je gierigheid in en neemt geen goudwaar mee. MAAR! DE DEUR GAAT OPEN! EEN MAN ROEPT: HEY GODVERDOMME WAT DOE JE HIER!?!.");
                                                                     alert("Je draait je om en je herkent de man! het is de eigenaar van het huis! Hij zegt: KOM HIER JIJ LUL!");
-                                                                var vraag10 = prompt("Ga je hem shanken?")
+                                                                var vraag10 = prompt("Ga je hem shanken?");
                                                                     if(vraag10 == "ja"){
                                                                         var gevecht2 = (Math.random());
                                                                         if(gevecht2 > 0.5){
-                                                                            alert("Je steekt hem lek! Hij valt op de grond. Het huis is van jou!")
-                                                                        var lijk = prompt("Waar dump je het lijk?")
-                                                                                alert("Je dumpt het lijk in " + lijk)
+                                                                            alert("Je steekt hem lek! Hij valt op de grond. Het huis is van jou!");
+                                                                        var lijk = prompt("Waar dump je het lijk?");
+                                                                                alert("Je dumpt het lijk in " + lijk);
                                                                         }
                                                                     }
                                                                 }
