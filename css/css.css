@@ -1,0 +1,133 @@
+#home {
+    overflow-x: hidden;
+    background-color:rgb(0, 0, 0);
+}
+.header {
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    overflow: hidden;   
+}
+
+h1 {
+    color:rgb(19, 30, 20);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+p:hover {
+    color: rgb(202, 199, 199);
+    cursor: pointer;
+}
+
+h1:hover {
+    color:rgb(18, 29, 10);
+    cursor: pointer;
+}
+
+h2 {
+    color:rgb(20, 59, 68);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2:hover {
+    color:rgb(15, 43, 49);
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+h3:hover {
+    color: rgb(211, 204, 204);
+    cursor: pointer;
+}
+
+a {
+    color: 	rgb(20, 59, 68);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(15, 43, 49);
+    cursor: pointer;
+}
+
+#OS {
+    background-color: black;
+    background-image: url(../images/space.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.OS13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PLAY {
+    color:rgb(18, 29, 10);
+    cursor: pointer;
+}
+
+.PLAY:hover {
+    color:rgb(18, 29, 10);
+    cursor: pointer;
+}
+
+#game {
+    background-color: black;
+}
+
+h4 {
+    color: white;
+    font-size: xx-large;
+}
+
+h5 {
+    color: green;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+h5:hover {
+    color: rgb(0, 90, 0);
+    cursor: pointer;
+}
+
+h6 {
+    color: red;
+    font-size: xx-large;
+    text-align: end;
+    text-align: center;
+}
+
+h6:hover {
+    color: rgb(172, 1, 1);
+    cursor: pointer;
+}
+
+.terug {
+    color: red;
+}
+
+.terug:hover {
+    color:  rgb(172, 1, 1);
+}
